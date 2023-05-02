@@ -27,6 +27,7 @@ When you run that command for the first time on your machine you should receive 
 
 **Output** 
 
+```bash
 Welcome to .NET 7.0!
 ---------------------
 SDK Version: 7.0.203
@@ -49,6 +50,7 @@ Report issues and find source on GitHub: https://github.com/dotnet/core
 Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
 --------------------------------------------------------------------------------------
 The template "Solution File" was created successfully.
+```
 
 ## Create a Console Application Project
 ### What is a Console Application?
@@ -66,6 +68,7 @@ dotnet new console -n "<name of project>"
 
 **Output**
 
+```bash
 The template "Console App" was created successfully.
 
 Processing post-creation actions...
@@ -73,6 +76,7 @@ Restoring /Users/canamar/dev/development/languages/c#/IntroUI/IntroUI.csproj:
   Determining projects to restore...
   Restored /Users/canamar/dev/development/languages/c#/IntroUI/IntroUI.csproj (in 34 ms).
 Restore succeeded.
+```
 
 ## Create a class library 
 ### What is a classlib?
@@ -103,8 +107,10 @@ dotnet sln VSCodeIntroSln.sln add **/*.csproj
 
 **Output**
 
+```bash
 Project `IntroLibrary/IntroLibrary.csproj` added to the solution.
 Project `IntroUI/IntroUI.csproj` added to the solution.
+```
 
 ## Creating a reference to a library from the project directory
 
@@ -116,7 +122,9 @@ dotnet add IntroUI/IntroUI.csproj reference IntroLibrary/IntroLibrary.csproj
 
 **Output**
 
+```bash
 Reference `..\IntroLibrary\IntroLibrary.csproj` added to the project.
+```
 
 ## Debugging Settings in VSCode
 
